@@ -1,4 +1,4 @@
-let categorias = [
+export let categorias = [
   {
     nombre: "Arquiteptura",
     foto: "https://firebasestorage.googleapis.com/v0/b/metodologias-agiles-177f9.appspot.com/o/Arquitectura%2Fprod1%2FCASA%20(1).jpg?alt=media&token=10ff9433-6436-4049-972a-5ca5774a9f4c",
