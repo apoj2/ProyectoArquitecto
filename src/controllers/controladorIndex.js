@@ -121,6 +121,10 @@ filaproyectos.addEventListener("click",function(evento){
 
         console.log(objetodeproyecto)
 
-        localStorage("infoProyecto",JSON.stringify(objetodeproyecto))
+
+        sessionStorage.setItem('proyecto',JSON.stringify(objetodeproyecto))
+
+        window.location.href='./src/views/infoProyecto.html'   
+    //    localStorage("infoProyecto",JSON.stringify(objetodeproyecto))
     }
 })
